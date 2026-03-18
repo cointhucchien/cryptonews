@@ -5,6 +5,8 @@ const nextConfig = {
       { protocol: "https", hostname: "**" },
     ],
   },
+  // Tắt Google Fonts optimization — tránh lỗi khi build không có internet
+  optimizeFonts: false,
 };
 
 export default nextConfig;
